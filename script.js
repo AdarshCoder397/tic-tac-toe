@@ -73,6 +73,9 @@ btn.addEventListener('click',()=> {
     boxTexts[6].innerHTML = ""
     boxTexts[7].innerHTML = ""
     boxTexts[8].innerHTML = ""
+    turn = 'X'
+    isGameOver = false
     document.querySelector('.imgBox').getElementsByTagName('img')[0].style.width = '0px'
     document.querySelector(".info").innerText = "It's X Turn's"
+
 })
